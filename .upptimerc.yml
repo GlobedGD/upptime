@@ -1,31 +1,36 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: GlobedGD
+repo: upptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+  - name: Website
+    url: https://globed.dev
+  - name: Central server
+    url: https://main.globed.dev/servers?protocol=65535  # todo maybe switch to /v3/meta or something
+  - name: Main server 1 (EU)
     check: "tcp-ping"
-    ipv6: true
+    url: ds1.mathieuar.fr
+    port: 4202
+  - name: Main server 2 (US East)
+    check: "tcp-ping"
+    url: vps2.mathieuar.fr
+    port: 4202
+  - name: Main Argon
+    url: https://argon.globed.dev/v1/status?errorifdead=1
+  - name: Credits server
+    url: https://credits.globed.dev/credits
+  - name: Test dead url
+    url: https://argon.globed.dev/v2/something
+assignees:
+  - dankmeme01
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.globed.dev
+  name: Globed Status
+  favicon: https://globed.dev/logo.png
+  logoUrl: https://globed.dev/logo.png
+  introTitle: "Status page for **Globed** and **Argon** auth"
   navbar:
     - title: Status
       href: /
