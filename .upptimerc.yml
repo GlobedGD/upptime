@@ -33,11 +33,6 @@ sites:
     maxResponseTime: 5000
     expectedStatusCodes:
       - 200
-  - name: Test dead url
-    url: https://argon.globed.dev/v2/something
-    maxResponseTime: 5000
-    expectedStatusCodes:
-      - 200
 assignees:
   - dankmeme01
 
