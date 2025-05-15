@@ -59,19 +59,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/argon.globed.dev.ico",
     "slug": "main-argon",
     "status": "up",
-    "uptime": "99.94%",
-    "uptimeDay": "99.06%",
-    "uptimeWeek": "99.87%",
-    "uptimeMonth": "99.94%",
-    "uptimeYear": "99.94%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 478,
     "timeDay": 461,
     "timeWeek": 480,
     "timeMonth": 478,
     "timeYear": 478,
-    "dailyMinutesDown": {
-      "2025-05-15": 14
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Website",
@@ -96,17 +94,19 @@
     "url": "https://credits.globed.dev/credits",
     "icon": "https://icons.duckduckgo.com/ip3/credits.globed.dev.ico",
     "slug": "credits-server",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 473,
-    "timeDay": 460,
-    "timeWeek": 467,
-    "timeMonth": 473,
-    "timeYear": 473,
-    "dailyMinutesDown": {}
+    "time": 467,
+    "timeDay": 401,
+    "timeWeek": 451,
+    "timeMonth": 467,
+    "timeYear": 467,
+    "dailyMinutesDown": {
+      "2025-05-15": 0
+    }
   }
 ]
