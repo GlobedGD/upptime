@@ -7,16 +7,26 @@ sites:
     maxResponseTime: 5000
     expectedStatusCodes:
       - 200
-  - name: Main server 1 (EU)
+  - name: Server 1 (EU)
     check: "tcp-ping"
     url: ds1.mathieuar.fr
     maxResponseTime: 2500
     port: 4202
-  - name: Main server 2 (US East)
+  - name: Server 2 (US East)
     check: "tcp-ping"
     url: vps1.mathieuar.fr
     maxResponseTime: 2500
     port: 4202
+  - name: Server 3 (SEA)
+    check: "tcp-ping"
+    url: vps2.mathieuar.fr
+    maxResponseTime: 5000
+    port: 4202
+  - name: Relay (RU)
+    check: "tcp-ping"
+    url: globed-proxy.cgyt.ru
+    maxResponseTime: 5000
+    port: 4201
   - name: Main Argon
     url: https://argon.globed.dev/v1/status?errorifdead=1
     __dangerous__body_down_if_text_missing: '"active":true'
