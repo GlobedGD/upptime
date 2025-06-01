@@ -1,7 +1,7 @@
 url: https://argon.globed.dev/v1/status?errorifdead=1
-status: down
-code: 406
-responseTime: 401
-lastUpdated: 2025-06-01T13:35:24.821Z
+status: up
+code: 200
+responseTime: 424
+lastUpdated: 2025-06-01T13:47:52.372Z
 startTime: 2025-04-28T20:34:14.736Z
 generator: Upptime <https://github.com/upptime/upptime>
