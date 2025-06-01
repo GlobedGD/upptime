@@ -94,19 +94,19 @@
     "url": "https://argon.globed.dev/v1/status?errorifdead=1",
     "icon": "https://icons.duckduckgo.com/ip3/argon.globed.dev.ico",
     "slug": "main-argon",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 488,
-    "timeDay": 532,
-    "timeWeek": 509,
-    "timeMonth": 490,
-    "timeYear": 488,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "99.13%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.97%",
+    "time": 486,
+    "timeDay": 496,
+    "timeWeek": 500,
+    "timeMonth": 488,
+    "timeYear": 486,
     "dailyMinutesDown": {
-      "2025-06-01": 0
+      "2025-06-01": 12
     }
   },
   {
