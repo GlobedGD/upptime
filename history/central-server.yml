@@ -1,7 +1,7 @@
 url: https://main.globed.dev/servers?protocol=65535
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-06-11T11:30:06.128Z
+status: up
+code: 200
+responseTime: 421
+lastUpdated: 2025-06-11T11:42:39.499Z
 startTime: 2025-04-28T20:34:09.917Z
 generator: Upptime <https://github.com/upptime/upptime>
